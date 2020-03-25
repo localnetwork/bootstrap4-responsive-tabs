@@ -1,0 +1,39 @@
+/**
+  ** Created by: http://github.com/localnetwork/
+  */
+
+@media (max-width: 767px) {
+    .responsive-tabs {
+        position: relative; 
+        border: 1px solid #ccc;
+    }
+    .responsive-tabs li {
+        width: 100%; 
+        margin: 0 !important; 
+    }
+    .responsive-tabs li > a {
+        display: none; 
+        border: 0 !important; 
+        border-radius: 0 !important;
+    }
+    .responsive-tabs.open li > a, .responsive-tabs li > a.active {
+        display: block;
+    }
+    .responsive-tabs .dropdown-arrow { 
+        position: absolute;
+        top: 15px;
+        right: 15px; 
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        vertical-align: middle;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transition: all ease .5s;
+    }
+    .responsive-tabs.open .dropdown-arrow {
+        transform: rotate(-135deg);
+        transition: all ease .5s; 
+    } 
+}  
