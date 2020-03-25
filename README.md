@@ -5,5 +5,7 @@
 </p>
 
 
-This library will make the bootstrap nav tabs as dropdown in below 767px screensize.
+This library will make the bootstrap nav tabs as dropdown in below 768px screensize. Demo here: <a href="https://bootstrap4-responsive-tabs.herokuapp.com/">https://bootstrap4-responsive-tabs.herokuapp.com/</a>
+
+Check the home.html file for your reference.
 
