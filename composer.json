@@ -1,1 +1,15 @@
-‘{}’
+{
+	"name": "locanetwork/bootstrap4-responsive-tabs",
+    "description": "Bootstrap 4 Responsive Nav Tabs",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+
+    "authors": [
+        {
+            "name": "Diome Nike Potot",
+            "email": "diome.halcyonwebdesign@gmail.com",
+            "homepage": "http://github.com/localnetwork/",
+            "role": "Developer"
+        }
+    ]
+}
