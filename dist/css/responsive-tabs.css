@@ -2,7 +2,7 @@
   ** Created by: http://github.com/localnetwork/
   */
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .responsive-tabs {
         position: relative; 
         border: 1px solid #ccc;
