@@ -1,10 +1,6 @@
-// $.fn.responsiveTabs = function() {
-//     this.addClass("responsive-tabs"), this.append($('<span class="drop-arrow"></span>')), this.on("click", "li.active > a, span.fa", function() {
-//         this.toggleClass("open")
-//     }.bind(this)), this.on("click", "li:not(.active) > a", function() {
-//         this.removeClass("open")
-//     }.bind(this))
-// }
+/**
+  ** http://github.com/localnetwork/
+  **/
 
 $.fn.responsiveTabs = function() {
 	this.addClass('responsive-tabs'),
@@ -17,4 +13,4 @@ $.fn.responsiveTabs = function() {
 	}.bind(this)), this.on("click", "li > a:not(.active)", function() {
         this.removeClass("open")
     }.bind(this)); 
-}  
+}
