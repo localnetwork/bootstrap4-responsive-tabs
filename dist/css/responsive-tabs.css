@@ -3,7 +3,7 @@
   */
 
 @media (min-width: 768px) {
-    .responsive-tabs.open .dropdown-arrow {
+    .responsive-tabs .dropdown-arrow {
         display: none; 
     } 
 }
