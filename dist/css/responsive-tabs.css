@@ -2,6 +2,12 @@
   ** Created by: http://github.com/localnetwork/
   */
 
+@media (min-width: 768px) {
+    .responsive-tabs.open .dropdown-arrow {
+        display: none; 
+    } 
+}
+
 @media screen and (max-width: 767px) {
     .responsive-tabs {
         position: relative; 
