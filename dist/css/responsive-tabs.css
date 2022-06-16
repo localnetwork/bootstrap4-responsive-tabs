@@ -21,6 +21,7 @@
         display: none; 
         border: 0 !important; 
         border-radius: 0 !important;
+        margin-bottom: 0 !important;
     }
     .responsive-tabs.open li > a, .responsive-tabs li > a.active {
         display: block;
