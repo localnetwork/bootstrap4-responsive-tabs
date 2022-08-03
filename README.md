@@ -1,4 +1,4 @@
-# bootstrap4-responsive-tabs
+# Bootstrap 4 Responsive Tabs
 
 <p align="center">
   <img src="assets/demo.jpg" style="max-width:200px;">
